@@ -1,0 +1,28 @@
+{
+  "name": "hogwarts-air",
+  "version": "1.0.0",
+  "description": "Application to control Hogwarts Air operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Felipe-Santana<felipesantanaalbuquerque9@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.20",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  },
+  "private": "true"
+}
